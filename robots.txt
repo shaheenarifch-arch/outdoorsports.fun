@@ -1,26 +1,8 @@
-# outdoorsports.fun - Enhanced robots.txt
 User-agent: *
 Allow: /
-
-# Disallow tracking params
-Disallow: /*?*utm_*
-Disallow: /*?*fbclid*
-Disallow: /*?*gclid*
-
-# Protect private
-Disallow: /admin/
-Disallow: /api/
-
-# Allow verification
+Disallow: /*?*utm_* /*?*fbclid* /*?*gclid*
 Allow: /google77d0e4245e3633a5.html
 Allow: /sitemap.xml
-
-# Sitemap location
 Sitemap: https://outdoorsports.fun/sitemap.xml
-
-# For image bots - allow Awin cshow
 User-agent: Googlebot-Image
 Allow: /
-
-User-agent: Bingbot
-Crawl-delay: 1
