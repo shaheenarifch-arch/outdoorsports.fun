@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.0">
-  <!-- Core -->
-  <url><loc>https://outdoorsports.fun/</loc><lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <!-- Homepage with all affiliate images for image SEO -->
+  <url>
+    <loc>https://outdoorsports.fun/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4748127&amp;v=124816&amp;q=602540&amp;r=3067297</image:loc><image:title>Traverseon Outdoor Gear</image:title></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4771306&amp;v=124816&amp;q=604359&amp;r=3067297</image:loc><image:title>Traverseon Camping Essentials</image:title></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4724131&amp;v=124816&amp;q=600107&amp;r=3067297</image:loc><image:title>Traverseon Portable Stove</image:title></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4871659&amp;v=117613&amp;q=613346&amp;r=3067297</image:loc><image:title>OUTFITR Sports Apparel</image:title></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4889996&amp;v=117613&amp;q=614829&amp;r=3067297</image:loc><image:title>OUTFITR US Gear</image:title></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4863999&amp;v=117613&amp;q=612560&amp;r=3067297</image:loc><image:title>OUTFITR Performance</image:title></image:image>
+  </url>
+  <!-- Categories -->
   <url><loc>https://outdoorsports.fun/outdoor</loc><lastmod>2026-05-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://outdoorsports.fun/sports</loc><lastmod>2026-05-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://outdoorsports.fun/fun</loc><lastmod>2026-05-13</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -15,16 +27,46 @@
   <url><loc>https://outdoorsports.fun/reviews</loc><lastmod>2026-05-13</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://outdoorsports.fun/deals</loc><lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://outdoorsports.fun/blog</loc><lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <!-- Partners -->
-  <url><loc>https://outdoorsports.fun/partners/traverseon</loc><lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://outdoorsports.fun/partners/outfitr</loc><lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <!-- Legal & Info -->
+  <!-- Partners with full image sets -->
+  <url>
+    <loc>https://outdoorsports.fun/partners/traverseon</loc>
+    <lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>0.9</priority>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4748127&amp;v=124816&amp;q=602540&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4771306&amp;v=124816&amp;q=604359&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4724131&amp;v=124816&amp;q=600107&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4724089&amp;v=124816&amp;q=600017&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4724022&amp;v=124816&amp;q=600100&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4723982&amp;v=124816&amp;q=600093&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4722790&amp;v=124816&amp;q=600022&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4722735&amp;v=124816&amp;q=600015&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4723974&amp;v=124816&amp;q=600093&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4724157&amp;v=124816&amp;q=600109&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4818741&amp;v=124816&amp;q=608343&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4818737&amp;v=124816&amp;q=608343&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4771313&amp;v=124816&amp;q=604359&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4803599&amp;v=124816&amp;q=607088&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4771312&amp;v=124816&amp;q=604359&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4724100&amp;v=124816&amp;q=600106&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4723669&amp;v=124816&amp;q=600065&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4723977&amp;v=124816&amp;q=600093&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4818640&amp;v=124816&amp;q=608343&amp;r=3067297</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://outdoorsports.fun/partners/outfitr</loc>
+    <lastmod>2026-05-13</lastmod><changefreq>daily</changefreq><priority>0.9</priority>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4871659&amp;v=117613&amp;q=613346&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4889996&amp;v=117613&amp;q=614829&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4863999&amp;v=117613&amp;q=612560&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4596998&amp;v=117613&amp;q=588946&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4302932&amp;v=117613&amp;q=561269&amp;r=3067297</image:loc></image:image>
+    <image:image><image:loc>https://www.awin1.com/cshow.php?s=4504445&amp;v=117613&amp;q=561269&amp;r=3067297</image:loc></image:image>
+  </url>
+  <!-- Legal -->
   <url><loc>https://outdoorsports.fun/about</loc><lastmod>2026-05-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://outdoorsports.fun/contact</loc><lastmod>2026-05-13</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://outdoorsports.fun/affiliate-disclosure</loc><lastmod>2026-05-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://outdoorsports.fun/privacy</loc><lastmod>2026-05-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://outdoorsports.fun/terms</loc><lastmod>2026-05-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://outdoorsports.fun/editorial-policy</loc><lastmod>2026-05-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <!-- Verification -->
   <url><loc>https://outdoorsports.fun/google77d0e4245e3633a5.html</loc><lastmod>2026-05-13</lastmod><changefreq>yearly</changefreq><priority>0.1</priority></url>
 </urlset>
