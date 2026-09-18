@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
-Disallow: /*?*utm_* /*?*fbclid* /*?*gclid*
-Allow: /google77d0e4245e3633a5.html
-Allow: /sitemap.xml
+
+Disallow: /*?utm_*
+Disallow: /*?*fbclid*
+Disallow: /*?*gclid*
+
 Sitemap: https://outdoorsports.fun/sitemap.xml
+
 User-agent: Googlebot-Image
 Allow: /
