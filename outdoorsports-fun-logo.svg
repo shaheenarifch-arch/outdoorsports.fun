@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Outdoorsports.fun logo</title>
+<desc id="desc">A simple Outdoorsports.fun logo with OSF initials.</desc>
+<rect width="512" height="512" rx="96" fill="#12203B"/>
+<circle cx="256" cy="170" r="88" fill="#8EB6FF" opacity="0.9"/>
+<text x="256" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="144" font-weight="700" fill="#FFFFFF">OSF</text>
+<text x="256" y="396" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#DCE8FF">outdoorsports.fun</text>
+</svg>
