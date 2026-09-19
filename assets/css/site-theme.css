@@ -387,7 +387,8 @@ html[data-theme="desert"] body {
 
 /* Article pages */
 body.article-page > article,
-body.article-page > section.affiliate-feature {
+body.article-page > section.affiliate-feature,
+body.article-page article > section.affiliate-feature {
   max-width: 860px;
   margin-inline: auto;
 }
@@ -511,7 +512,10 @@ body.article-page .affiliate-banner img {
 
 body.article-page article > a[rel~="sponsored"]:hover,
 body.article-page .affiliate-banner a:hover,
-body.article-page .affiliate-feature a[rel~="sponsored"][target="_blank"]:hover {
+body.article-page article > a[rel~="sponsored"]:focus-visible,
+body.article-page .affiliate-banner a:focus-visible,
+body.article-page .affiliate-feature a[rel~="sponsored"][target="_blank"]:hover,
+body.article-page .affiliate-feature a[rel~="sponsored"][target="_blank"]:focus-visible {
   transform: translateY(-3px);
 }
 
