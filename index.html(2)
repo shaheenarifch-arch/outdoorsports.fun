@@ -44,6 +44,35 @@ Error generating stack: `+f.message+`
 </urlset>`}),a("div",{className:"mt-3 text-[11px] text-[var(--text-muted)]",children:"Robots: index, follow • Canonical: https://outdoorsports.fun/ • OG: Outdoor Sports Fun — compact balanced symmetrical homepage"})]})]})]})}W3.createRoot(document.getElementById("root")).render(a(Z3.default.StrictMode,{children:a(ni,{})}));
 </script>
   <script>(function(){function m(a){var h=a.getAttribute("href");if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol==="http:"||u.protocol==="https:")&&u.host!==location.host){a.target="_blank";a.rel="noopener noreferrer";}}catch(e){}}function s(){document.querySelectorAll("a[href]").forEach(m);}if(document.readyState!=="loading"){s();}else{document.addEventListener("DOMContentLoaded",s);}document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a[href]");if(a){m(a);}},true);})();</script>
-  
+ <style>
+  .active-lifestyle {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .active-lifestyle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .active-lifestyle-grid a {
+    display: block;
+  }
+
+  .active-lifestyle-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 700px) {
+    .active-lifestyle-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style> 
 </body>
 </html>
