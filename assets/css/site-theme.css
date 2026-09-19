@@ -76,15 +76,10 @@ a:hover {
   color: var(--os-color-accent-600);
 }
 
-a:focus,
 a:focus-visible,
-button:focus,
 button:focus-visible,
-input:focus,
 input:focus-visible,
-textarea:focus,
 textarea:focus-visible,
-select:focus,
 select:focus-visible {
   outline: 3px solid rgba(209, 122, 50, 0.24);
   outline-offset: 3px;
@@ -515,9 +510,7 @@ body.article-page .affiliate-feature a[rel~="sponsored"][target="_blank"]:hover 
 }
 
 body.article-page table {
-  display: block;
-  overflow-x: auto;
-  border-spacing: 0;
+  table-layout: fixed;
   border-radius: var(--os-radius-md);
   border: 1px solid var(--os-border);
   box-shadow: var(--os-shadow-sm);
@@ -532,7 +525,8 @@ body.article-page th {
 body.article-page th,
 body.article-page td {
   border-color: var(--os-border) !important;
-  min-width: 140px;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 body.article-page .affiliate-feature.kings-camo-feature {
