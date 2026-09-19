@@ -285,7 +285,8 @@ html[data-theme="desert"] body {
 }
 
 #root #categories .grid > div,
-#root #partners .rounded-\[16px\],
+#root .partner-card,
+#root .partner-preview-card,
 #root .contact-card,
 #root .sitemap-card,
 #root .footer-disclosure,
@@ -302,21 +303,25 @@ html[data-theme="desert"] body {
   backdrop-filter: blur(12px);
 }
 
-#root a[rel~="sponsored"] {
+#root .partner-card,
+#root .partner-preview-card {
   box-shadow: var(--os-shadow-sm);
 }
 
-#root a[rel~="sponsored"]:hover {
+#root .partner-card:hover,
+#root .partner-preview-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--os-shadow-md);
   border-color: rgba(185, 106, 39, 0.3) !important;
 }
 
-#root a[rel~="sponsored"] img {
+#root .partner-card img,
+#root .partner-preview-card img {
   transition: transform var(--os-transition-slow), filter var(--os-transition-slow);
 }
 
-#root a[rel~="sponsored"]:hover img {
+#root .partner-card:hover img,
+#root .partner-preview-card:hover img {
   transform: scale(1.025);
   filter: saturate(1.03) contrast(1.02);
 }
