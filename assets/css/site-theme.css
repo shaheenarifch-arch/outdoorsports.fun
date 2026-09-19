@@ -492,15 +492,16 @@ body.article-page .affiliate-feature a[rel~="sponsored"][target="_blank"] {
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
-body.article-page img {
-  box-shadow: var(--os-shadow-sm);
-}
-
 body.article-page article > a[rel~="sponsored"],
 body.article-page .affiliate-banner a {
   display: block;
   border-radius: var(--os-radius-md);
   overflow: hidden;
+}
+
+body.article-page article > a[rel~="sponsored"] img,
+body.article-page .affiliate-banner img {
+  box-shadow: var(--os-shadow-sm);
 }
 
 body.article-page article > a[rel~="sponsored"]:hover,
@@ -510,7 +511,6 @@ body.article-page .affiliate-feature a[rel~="sponsored"][target="_blank"]:hover 
 }
 
 body.article-page table {
-  table-layout: fixed;
   border-radius: var(--os-radius-md);
   border: 1px solid var(--os-border);
   box-shadow: var(--os-shadow-sm);
