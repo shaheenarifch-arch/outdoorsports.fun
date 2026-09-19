@@ -214,10 +214,7 @@ html[data-theme="desert"] body {
   pointer-events: none;
 }
 
-#root .hero-section h1,
-#root .hero-section p,
-#root .hero-section span,
-#root .hero-section div {
+#root .hero-surface > * {
   position: relative;
   z-index: 1;
 }
@@ -252,28 +249,25 @@ html[data-theme="desert"] body {
 }
 
 #root .hero-secondary-cta,
-#root header a[href="#newsletter"],
-#root header .hidden.sm\:flex button,
-#root .md\:hidden.border-t button,
-#root #newsletter input,
-#root #newsletter button,
-#root #contact button,
-#root .fixed > div:last-child,
-#root #categories > div > div > div:last-child,
-#root #contact > div > div > div,
-#root footer > div > div:last-child,
-#root footer > div > div:nth-child(2) {
+#root .header-join,
+#root .theme-toggle,
+#root .mobile-menu-panel,
+#root .newsletter-input,
+#root .contact-card,
+#root .sitemap-card,
+#root .footer-disclosure,
+#root .sitemap-modal,
+#root .partners-checklist {
   border-color: var(--border) !important;
 }
 
-#root header a[href="#newsletter"],
-#root header .hidden.sm\:flex,
-#root .md\:hidden.border-t,
-#root #newsletter form,
-#root #newsletter input,
-#root #contact > div > div > div,
-#root footer,
-#root .fixed > div:last-child {
+#root .header-join,
+#root .theme-toggle,
+#root .mobile-menu-panel,
+#root .newsletter-input,
+#root .contact-card,
+#root .sitemap-card,
+#root .sitemap-modal {
   background: rgba(255, 252, 247, 0.88) !important;
 }
 
@@ -290,19 +284,21 @@ html[data-theme="desert"] body {
     transparent;
 }
 
-#root #categories > div > div > div,
+#root #categories .grid > div,
 #root #partners .rounded-\[16px\],
-#root #contact > div > div > div,
-#root footer > div > div:nth-child(2),
-#root .fixed > div:last-child {
+#root .contact-card,
+#root .sitemap-card,
+#root .footer-disclosure,
+#root .sitemap-modal,
+#root .partners-checklist {
   box-shadow: var(--os-shadow-sm);
 }
 
 #root #categories .grid > div,
-#root #contact .grid > div,
-#root footer > div > div:nth-child(2),
-#root footer > div > div:nth-child(3),
-#root #partners > div > div:last-child {
+#root .contact-card,
+#root .sitemap-card,
+#root .footer-disclosure,
+#root .partners-checklist {
   backdrop-filter: blur(12px);
 }
 
@@ -325,32 +321,35 @@ html[data-theme="desert"] body {
   filter: saturate(1.03) contrast(1.02);
 }
 
-#root #partners .grid + div,
+#root .partners-checklist,
 #root #newsletter,
-#root #contact .grid > div,
-#root footer > div > div:nth-child(2),
-#root footer > div > div:nth-child(3) {
+#root .contact-card,
+#root .sitemap-card,
+#root .footer-disclosure,
+#root .footer-build-note {
   border-radius: var(--os-radius-md);
 }
 
-#root #newsletter input {
+#root .newsletter-input {
   color: var(--os-text-strong);
 }
 
-#root #newsletter input::placeholder {
+#root .newsletter-input::placeholder {
   color: var(--os-text-muted);
 }
 
 #root #categories .grid > div:hover,
-#root #contact .grid > div:hover,
-#root #partners .grid + div:hover {
+#root .contact-card:hover,
+#root .sitemap-card:hover,
+#root .partners-checklist:hover {
   transform: translateY(-2px);
   box-shadow: var(--os-shadow-md);
 }
 
 #root #categories .grid > div,
-#root #contact .grid > div,
-#root #partners .grid + div {
+#root .contact-card,
+#root .sitemap-card,
+#root .partners-checklist {
   transition: transform var(--os-transition-base), box-shadow var(--os-transition-base), border-color var(--os-transition-base);
 }
 
