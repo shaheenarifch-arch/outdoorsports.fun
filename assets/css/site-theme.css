@@ -191,11 +191,11 @@ html[data-theme="desert"] body {
   position: relative;
 }
 
-#root section:first-of-type {
+#root .hero-section {
   padding-top: clamp(2.5rem, 6vw, 4.5rem) !important;
 }
 
-#root section:first-of-type > div > div {
+#root .hero-surface {
   background:
     linear-gradient(135deg, rgba(24, 49, 38, 0.92), rgba(33, 66, 50, 0.86) 42%, rgba(185, 106, 39, 0.56) 120%);
   color: var(--os-text-inverse);
@@ -206,7 +206,7 @@ html[data-theme="desert"] body {
   overflow: hidden;
 }
 
-#root section:first-of-type > div > div::before {
+#root .hero-surface::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -214,28 +214,29 @@ html[data-theme="desert"] body {
   pointer-events: none;
 }
 
-#root section:first-of-type h1,
-#root section:first-of-type p,
-#root section:first-of-type span,
-#root section:first-of-type div {
+#root .hero-section h1,
+#root .hero-section p,
+#root .hero-section span,
+#root .hero-section div {
   position: relative;
   z-index: 1;
 }
 
-#root section:first-of-type h1 {
+#root .hero-section h1 {
   color: #fff9f2;
   text-wrap: balance;
   text-shadow: 0 8px 24px rgba(10, 16, 12, 0.16);
 }
 
-#root section:first-of-type p,
-#root section:first-of-type .text-\[11px\],
-#root section:first-of-type .text-\[14px\],
-#root section:first-of-type .text-\[15px\] {
+#root .hero-section p,
+#root .hero-section .text-\[11px\],
+#root .hero-section .text-\[14px\],
+#root .hero-section .text-\[15px\] {
   color: rgba(247, 242, 235, 0.82) !important;
 }
 
-#root section:first-of-type a[href^="#"],
+#root .hero-primary-cta,
+#root .hero-secondary-cta,
 #root #contact button,
 #root #newsletter button[type="submit"],
 #root .fixed button,
@@ -243,14 +244,14 @@ html[data-theme="desert"] body {
   box-shadow: var(--os-shadow-sm);
 }
 
-#root section:first-of-type a[href^="#"]:first-of-type,
+#root .hero-primary-cta,
 #root #contact button,
 #root #newsletter button[type="submit"] {
   background: linear-gradient(135deg, var(--os-color-accent-500), var(--os-color-accent-600)) !important;
   color: #fffaf5 !important;
 }
 
-#root section:first-of-type a[href^="#"]:nth-of-type(2),
+#root .hero-secondary-cta,
 #root header a[href="#newsletter"],
 #root header .hidden.sm\:flex button,
 #root .md\:hidden.border-t button,
@@ -370,7 +371,7 @@ html[data-theme="desert"] body {
 }
 
 @media (max-width: 767px) {
-  #root section:first-of-type > div > div {
+  #root .hero-surface {
     border-radius: 24px;
     padding: 1.2rem;
   }
@@ -427,7 +428,7 @@ body.article-page th {
   font-size: 1rem;
 }
 
-body.article-page article > p:first-of-type a {
+body.article-page .article-back-link a {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
