@@ -5,7 +5,7 @@ Disallow: /*?utm_*
 Disallow: /*?*fbclid*
 Disallow: /*?*gclid*
 
-Sitemap: https://outdoorsports.fun/sitemap.xml
-
 User-agent: Googlebot-Image
 Allow: /
+
+Sitemap: https://outdoorsports.fun/sitemap.xml
