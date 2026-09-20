@@ -3,25 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Outdoor Sports Fun | Outdoor gear from Traverseon and OUTFITR US</title>
-<meta name="description" content="Curated outdoor gear for hiking, camping, climbing and trail running from Traverseon and OUTFITR US.">
+<title>Outdoor Sports Fun | Outdoor gear from Traverseon, OUTFITR US, Toputure and Kings Camo</title>
+<meta name="description" content="Curated outdoor gear picks from four partner stores: Traverseon, OUTFITR US, Toputure and Kings Camo.">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#2f5d3a">
+<meta name="theme-color" content="#3a714a">
 <link rel="canonical" href="https://outdoorsports.fun/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Outdoor Sports Fun">
 <meta property="og:title" content="Outdoor Sports Fun | Outdoor gear, compact drops, balanced picks">
-<meta property="og:description" content="Curated outdoor gear for hiking, camping, climbing and trail running from Traverseon and OUTFITR US.">
+<meta property="og:description" content="Curated outdoor gear picks from four partner stores: Traverseon, OUTFITR US, Toputure and Kings Camo.">
 <meta property="og:url" content="https://outdoorsports.fun/">
 <link rel="preconnect" href="https://www.awin1.com">
 <link rel="dns-prefetch" href="https://www.awin1.com">
+<link rel="preconnect" href="https://traverseon.com">
+<link rel="preconnect" href="https://outfitrer.com">
+<link rel="preconnect" href="https://kingscamo.com">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"Outdoor Sports Fun","url":"https://outdoorsports.fun/","description":"Curated outdoor gear for hiking, camping, climbing and trail running.","publisher":{"@type":"Organization","name":"Outdoor Sports Fun","url":"https://outdoorsports.fun/","email":"agents@getservices.ai","telephone":"+1-313-729-1534"}}
 </script>
 <style>
 :root{
-  --bg:#f2f5f1; --card:#fff; --ink:#1c2a22; --muted:#5b6b60; --line:#d9e2d6;
-  --moss:#2f5d3a; --moss-2:#244a2e; --moss-soft:#e0ebdc; --sand:#ece2cb; --lake:#3d7a94;
+  --bg:#f4f6f2; --card:#fff; --ink:#1c2a22; --muted:#5b6b60; --line:#dbe3d8;
+  --moss:#3a714a; --moss-2:#2d5a3a; --moss-deep:#1f3d29; --moss-soft:#e3eee0; --sand:#ece2cb; --lake:#3d7a94;
   --r:14px; --pad:16px;
   --font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
@@ -33,61 +36,64 @@ a{color:inherit}
 h1,h2,h3,p{margin:0}
 :focus-visible{outline:3px solid var(--lake);outline-offset:2px;border-radius:6px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
-section[id]{scroll-margin-top:60px}
-
-/* header */
-.top{position:sticky;top:0;z-index:20;background:rgba(242,245,241,.94);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0)}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;height:52px}
+section[id]{scroll-margin-top:64px}
+.bar{background:var(--moss-deep);color:#e7f1e3;font-size:12px;line-height:1.35;text-align:center;padding:7px var(--pad)}
+.bar a{font-weight:700;text-decoration:underline}
+.top{position:sticky;top:0;z-index:20;background:var(--card);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:54px}
 .brand{display:flex;align-items:center;gap:8px;font-weight:800;letter-spacing:-.02em;text-decoration:none;font-size:15px;white-space:nowrap}
 .brand svg{width:26px;height:26px;flex:none}
 .nav{display:flex;gap:2px}
 .nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 7px;font-size:13px;white-space:nowrap;font-weight:600;text-decoration:none;color:var(--muted)}
 .nav a:hover{color:var(--moss)}
-
-/* hero */
-.hero{position:relative;overflow:hidden;padding:22px 0 18px}
-.topo{position:absolute;right:-90px;top:-40px;width:420px;height:420px;opacity:.55;pointer-events:none}
-.live{position:relative;display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--moss)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--moss);flex:none}
-h1{position:relative;margin-top:8px;font-size:clamp(30px,8.2vw,52px);line-height:1.02;letter-spacing:-.035em;font-weight:800;max-width:15ch}
-.sub{position:relative;margin-top:10px;color:var(--muted);max-width:44ch}
-.cta-row{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.hero{padding:14px 0 6px}
+.banner{position:relative;overflow:hidden;border-radius:18px;background:linear-gradient(135deg,var(--moss) 0%,var(--moss-deep) 100%);color:#fff;padding:24px 20px 22px;display:grid;gap:18px}
+.htxt{position:relative}
+.heroimg{position:relative;display:block;justify-self:center;width:100%;max-width:520px;background:#fff;border-radius:14px;padding:6px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.heroimg[hidden]{display:none}
+.heroimg img{display:block;width:100%;height:auto;max-height:320px;object-fit:contain;margin:0 auto;border-radius:9px}
+.topo{position:absolute;right:-110px;top:-70px;width:440px;height:440px;opacity:.5;pointer-events:none}
+.live{position:relative;display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:#cfe4c9}
+.dot{width:8px;height:8px;border-radius:50%;background:#9fd08f;flex:none}
+h1{position:relative;margin-top:8px;font-size:clamp(28px,8vw,50px);line-height:1.03;letter-spacing:-.035em;font-weight:800;max-width:15ch}
+.sub{position:relative;margin-top:10px;color:#d5e5d1;max-width:44ch}
+.cta-row{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:999px;font-size:14px;font-weight:700;text-decoration:none;border:1px solid var(--moss);background:var(--moss);color:#fff;cursor:pointer;font-family:inherit}
 .btn:hover{background:var(--moss-2)}
-.btn.alt{background:transparent;color:var(--moss)}
-.btn.alt:hover{background:var(--moss-soft)}
-
-/* featured strip */
-.strip{display:flex;gap:10px;margin:18px calc(var(--pad)*-1) 0;padding:0 var(--pad) 4px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 var(--pad);scrollbar-width:none}
-.strip::-webkit-scrollbar{display:none}
-.strip .card{flex:0 0 150px;scroll-snap-align:start}
-
-/* filters */
-.head{display:flex;flex-direction:column;gap:2px;margin:22px 0 10px}
+.banner .btn{background:var(--sand);border-color:var(--sand);color:var(--ink)}
+.banner .btn:hover{background:#f6eedb}
+.banner .btn.alt{background:transparent;border-color:#8fb587;color:#fff}
+.banner .btn.alt:hover{background:rgba(255,255,255,.1)}
+.head{display:flex;flex-direction:column;gap:2px;margin:24px 0 10px}
 h2{font-size:20px;letter-spacing:-.02em;line-height:1.2}
 .head p{font-size:13px;color:var(--muted)}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:2px var(--pad) 8px;margin:0 calc(var(--pad)*-1);scrollbar-width:none}
-.chips::-webkit-scrollbar{display:none}
-.chip{flex:none;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 13px/1 var(--font);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.chip small{font-size:12px;font-weight:600;color:var(--muted)}
-.chip[aria-pressed="true"]{background:var(--moss);border-color:var(--moss);color:#fff}
-.chip[aria-pressed="true"] small{color:#cfe0cc}
-
-/* cards */
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding-bottom:8px}
-.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;text-decoration:none;min-width:0}
-.ph{position:relative;aspect-ratio:4/3;background:var(--sand);overflow:hidden}
-.ph img{width:100%;height:100%;object-fit:cover}
-.ph .fb{display:none;position:absolute;inset:0;align-items:center;justify-content:center;font-size:30px;font-weight:800;color:var(--moss);opacity:.5}
+.vsec{margin-top:24px}
+.vhead{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;margin-bottom:10px}
+.vhead h2{font-size:20px}
+.vhead p{font-size:13px;color:var(--muted);margin-top:1px}
+.visit{flex:none;display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--moss);color:var(--moss);font-size:13px;font-weight:700;text-decoration:none}
+.visit:hover{background:var(--moss-soft)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;min-width:0;box-shadow:0 1px 3px rgba(20,40,28,.06);transition:transform .18s ease,box-shadow .18s ease;-webkit-tap-highlight-color:transparent;contain:content}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(20,40,28,.14)}
+.card:active{transform:scale(.97)}
+.ph{position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--sand)}
+.ph img{position:absolute;display:block;transition:opacity .3s ease}
+.ph .fg{inset:0;width:100%;height:100%;object-fit:contain;z-index:1}
+.ph.ok .fg{opacity:1}
+.ph .fb{display:none;position:absolute;inset:0;align-items:center;justify-content:center;font-size:34px;font-weight:800;color:#fff;opacity:.9;text-shadow:0 2px 10px rgba(0,0,0,.25)}
+.ph.noimg{background:linear-gradient(145deg,var(--moss) 0%,var(--moss-deep) 100%)}
 .ph.noimg img{display:none}
 .ph.noimg .fb{display:flex}
-.body{display:flex;flex-direction:column;gap:2px;padding:9px 10px 11px;flex:1}
-.brandline{font-size:12px;font-weight:700;color:var(--moss)}
-.body h3{font-size:14px;line-height:1.3;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.go{margin-top:auto;padding-top:6px;font-size:13px;font-weight:700;color:var(--lake)}
-.empty{grid-column:1/-1;padding:24px 16px;border:1px dashed var(--line);border-radius:var(--r);color:var(--muted);text-align:center;font-size:14px}
-
-/* newsletter */
+.body{display:flex;flex-direction:column;gap:6px;padding:7px 7px 8px;flex:1}
+.body h3{font-size:12px;line-height:1.3;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em}
+.shop{margin-top:auto;display:flex;align-items:center;justify-content:center;min-height:34px;border-radius:999px;background:var(--moss);color:#fff;font-size:12px;font-weight:700}
+.card:hover .shop{background:var(--moss-2)}
+.empty{grid-column:1/-1;padding:18px 14px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center;font-size:13px}
+.conf{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.conf div{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px}
+.conf h3{font-size:14px;line-height:1.25}
+.conf p{font-size:13px;color:var(--muted);margin-top:3px;line-height:1.4}
 .news{margin-top:26px;background:var(--moss);color:#fff}
 .news .wrap{padding-top:22px;padding-bottom:22px;display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
 .news h2{font-size:21px}
@@ -100,45 +106,47 @@ input[type=email]{flex:1;width:0;min-width:0;height:46px;border-radius:999px;bor
 .consent{display:flex;gap:8px;align-items:flex-start;font-size:12px;color:#d5e5d1}
 .consent input{margin-top:2px;width:18px;height:18px;flex:none}
 .msg{font-size:13px;font-weight:600;min-height:1em}
-
-/* contact + footer */
-.contact{padding:24px 0 8px;display:grid;gap:4px}
-.contact a{display:inline-flex;align-items:center;min-height:36px;color:var(--moss);font-weight:600}
-.contact .muted{color:var(--muted);font-size:14px}
-footer{border-top:1px solid var(--line);margin-top:16px;padding:16px 0 calc(24px + env(safe-area-inset-bottom,0));font-size:12px;color:var(--muted)}
-.flinks{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:10px}
-.flinks a{display:inline-flex;align-items:center;min-height:32px}
-.disc{margin-top:10px;padding:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;line-height:1.45}
-
-@media(max-width:400px){.nav a[href="#partners"]{display:none}.brand{font-size:14px;gap:6px}.brand svg{width:22px;height:22px}.nav a{padding:0 6px}}
+footer{background:var(--card);border-top:1px solid var(--line);padding:22px 0 calc(24px + env(safe-area-inset-bottom,0));font-size:13px;color:var(--muted)}
+.fcols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
+.fcols h3{font-size:13px;color:var(--ink);margin-bottom:4px}
+.fcols a,.fcols button{display:flex;align-items:center;min-height:34px;color:var(--muted);text-decoration:none;background:none;border:0;padding:0;font:inherit;text-align:left;cursor:pointer}
+.fcols a:hover,.fcols button:hover{color:var(--moss)}
+.fcols .about{grid-column:1/-1}
+.disc{margin-top:16px;padding:10px 12px;background:var(--bg);border:1px solid var(--line);border-radius:12px;line-height:1.45;font-size:12px}
+.copy{margin-top:12px;font-size:12px}
+@media(max-width:400px){.nav a[href="#shops"]{display:none}.brand{font-size:14px;gap:6px}.brand svg{width:22px;height:22px}.nav a{padding:0 6px}}
 @media(max-width:340px){.brand span{display:none}}
 @media(min-width:640px){
   :root{--pad:24px}
   .nav a{padding:0 10px;font-size:14px}
-  .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-  .hero{padding:36px 0 26px}
-  .strip .card{flex-basis:200px}
+  .banner{padding:40px 36px 36px}
+  .grid{gap:12px}
+  .body{padding:9px 10px 11px}
+  .body h3{font-size:14px}
+  .shop{font-size:13px;min-height:38px}
+  .conf{grid-template-columns:repeat(4,minmax(0,1fr))}
   .news .wrap{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);align-items:center}
+  .fcols{grid-template-columns:1.4fr 1fr 1fr 1fr}
+  .fcols .about{grid-column:auto}
 }
-@media(min-width:980px){
-  .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
-  .chips,.strip{overflow:visible;flex-wrap:wrap;margin:0;padding:0}
-  .chips{padding-bottom:12px}
-  .strip{display:none}
+@media(min-width:820px){
+  .banner{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;gap:28px}
 }
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ph img{transition:none}.card{transition:none}}
 </style>
 </head>
 <body>
 
+<div class="bar">Independent affiliate guide to Traverseon, OUTFITR US, Toputure and Kings Camo gear. You check out on their sites. <a href="/affiliate-disclosure/">Disclosure</a></div>
+
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Outdoor Sports Fun home">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2f5d3a"/><path d="M4 24l8-12 4 6 3-4 9 10z" fill="#ece2cb"/><circle cx="23" cy="9" r="3" fill="#8fc0d3"/></svg>
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#3a714a"/><path d="M4 24l8-12 4 6 3-4 9 10z" fill="#ece2cb"/><circle cx="23" cy="9" r="3" fill="#8fc0d3"/></svg>
       <span>outdoorsports.fun</span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="#partners">Gear</a>
+      <a href="#shops">Stores</a>
       <a href="#newsletter">Newsletter</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -147,32 +155,42 @@ footer{border-top:1px solid var(--line);margin-top:16px;padding:16px 0 calc(24px
 
 <main id="top">
   <section class="hero">
-    <svg class="topo" viewBox="0 0 420 420" fill="none" stroke="#2f5d3a" stroke-opacity=".16" stroke-width="1.4" aria-hidden="true">
-      <path d="M40 220c10-90 110-150 200-130s150 100 120 180-130 120-220 90S30 290 40 220z"/>
-      <path d="M78 218c8-66 84-110 150-95s110 74 88 132-96 88-162 66S70 270 78 218z"/>
-      <path d="M116 216c6-42 58-72 104-62s74 48 60 86-64 58-108 44-62-32-56-68z"/>
-      <path d="M154 214c4-22 32-38 58-32s40 26 32 46-34 30-58 22-36-18-32-36z"/>
-    </svg>
     <div class="wrap">
-      <p class="live"><span class="dot"></span><span id="count">Partner drops</span></p>
-      <h1>Outdoor gear, compact drops, balanced picks.</h1>
-      <p class="sub">Hand-picked gear from Traverseon and OUTFITR US for hiking, camping, climbing and trail running.</p>
-      <div class="cta-row">
-        <a class="btn" id="explore" href="#partners">Explore drops</a>
-        <a class="btn alt" href="#categories">Categories</a>
+      <div class="banner">
+        <svg class="topo" viewBox="0 0 420 420" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.4" aria-hidden="true">
+          <path d="M40 220c10-90 110-150 200-130s150 100 120 180-130 120-220 90S30 290 40 220z"/>
+          <path d="M78 218c8-66 84-110 150-95s110 74 88 132-96 88-162 66S70 270 78 218z"/>
+          <path d="M116 216c6-42 58-72 104-62s74 48 60 86-64 58-108 44-62-32-56-68z"/>
+          <path d="M154 214c4-22 32-38 58-32s40 26 32 46-34 30-58 22-36-18-32-36z"/>
+        </svg>
+        <div class="htxt">
+        <p class="live"><span class="dot"></span><span id="count">Partner drops</span></p>
+        <h1>Outdoor gear, compact drops, balanced picks.</h1>
+        <p class="sub">Hand-picked gear from four partner stores: Traverseon, OUTFITR US, Toputure and Kings Camo.</p>
+        <div class="cta-row">
+          <a class="btn" id="explore" href="#shops">Explore the stores</a>
+        </div>
+        </div>
+        <a class="heroimg" id="heroimg" href="#" target="_blank" rel="sponsored noopener" hidden></a>
       </div>
-      <div class="strip" id="strip" aria-label="Featured drops"></div>
     </div>
   </section>
 
-  <section id="partners">
+  <section id="shops">
+    <div class="wrap" id="vendors"></div>
+  </section>
+
+  <section>
     <div class="wrap">
-      <div class="head" id="categories">
-        <h2>Shop by terrain</h2>
-        <p>Traverseon and OUTFITR US partner drops</p>
+      <div class="head">
+        <h2>How this site works</h2>
       </div>
-      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
-      <div class="grid" id="grid" aria-live="polite"></div>
+      <div class="conf">
+        <div><h3>Curated picks</h3><p>We select gear from Traverseon, OUTFITR US, Toputure and Kings Camo.</p></div>
+        <div><h3>Buy from the store</h3><p>Checkout, shipping and returns are handled by the partner.</p></div>
+        <div><h3>No extra cost</h3><p>Prices are the same when you use our links.</p></div>
+        <div><h3>Affiliate links</h3><p>We may earn a commission on purchases.</p></div>
+      </div>
     </div>
   </section>
 
@@ -192,104 +210,116 @@ footer{border-top:1px solid var(--line);margin-top:16px;padding:16px 0 calc(24px
       </form>
     </div>
   </section>
-
-  <section id="contact">
-    <div class="wrap contact">
-      <h2>Contact</h2>
-      <div class="muted">Outdoor Sports Fun. Curated outdoor partners: Traverseon and OUTFITR US.</div>
-      <a href="mailto:agents@getservices.ai">agents@getservices.ai</a>
-      <a href="tel:+13137291534">313-729-1534</a>
-    </div>
-  </section>
 </main>
 
-<footer>
+<footer id="contact">
   <div class="wrap">
-    <div>outdoorsports.fun &copy; <span id="yr"></span></div>
-    <div class="flinks">
-      <a href="https://outdoorsports.fun">outdoorsports.fun</a>
-      <a href="/sitemap.xml">Sitemap</a>
-      <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
+    <div class="fcols">
+      <div class="about">
+        <h3>Outdoor Sports Fun</h3>
+        <div>Curated outdoor partners: Traverseon, OUTFITR US, Toputure and Kings Camo.</div>
+        <a href="mailto:agents@getservices.ai">agents@getservices.ai</a>
+        <a href="tel:+13137291534">313-729-1534</a>
+      </div>
+      <div>
+        <h3>Stores</h3>
+        <a href="#traverseon">Traverseon</a>
+        <a href="#outfitr">OUTFITR US</a>
+        <a href="#toputure">Toputure</a>
+        <a href="#kingscamo">Kings Camo</a>
+      </div>
+      <div>
+        <h3>Site</h3>
+        <a href="#shops">All stores</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+      <div>
+        <h3>Policy</h3>
+        <a href="/affiliate-disclosure/">Affiliate Disclosure</a>
+      </div>
     </div>
-    <p class="disc">Affiliate disclosure: This site contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. We only recommend gear we trust from Traverseon and OUTFITR US. <a href="/affiliate-disclosure/"><strong>Read full disclosure</strong></a>.</p>
+    <p class="disc">Affiliate disclosure: This site contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. We only recommend gear we trust from Traverseon, OUTFITR US, Toputure and Kings Camo. <a href="/affiliate-disclosure/"><strong>Read full disclosure</strong></a>.</p>
+    <div class="copy">outdoorsports.fun &copy; <span id="yr"></span>. Traverseon, OUTFITR, Toputure and Kings Camo are trademarks of their owners. This site is not operated by any of these brands.</div>
   </div>
 </footer>
 
 <script>
-/* ------------------------------------------------------------------
-   PARTNERS: paste the original `dn` array here, unchanged.
-   Each item: {s, v, q, r, brand, title, cat}
-   cat is one of: Hiking, Camping, Climbing, Trail Running
-------------------------------------------------------------------- */
-var PARTNERS = [
-  // {s:"", v:"", q:"", r:"", brand:"Traverseon", title:"", cat:"Hiking"},
+var VENDORS = [
+  {id:"traverseon", brand:"Traverseon", blurb:"Camping gear for tents, sleeping, cooking and RV trips.", store:"https://www.awin1.com/cread.php?awinmid=124816&awinaffid=3067297"},
+  {id:"outfitr", brand:"OUTFITR US", blurb:"Backpacks and camping gear.", store:"https://www.awin1.com/cread.php?awinmid=117613&awinaffid=3067297"},
+  {id:"toputure", brand:"Toputure", blurb:"Partner store.", store:"https://www.awin1.com/cread.php?awinmid=125464&awinaffid=3067297"},
+  {id:"kingscamo", brand:"Kings Camo", blurb:"Camouflage clothing and hunting gear.", store:"https://www.awin1.com/awclick.php?gid=517055&mid=116187&awinaffid=3067297&linkid=3912540&clickref="}
 ];
-
-/* Newsletter: paste your Google Apps Script web-app URL to save signups to Google Sheets. */
+function dl(mid, page){ return "https://www.awin1.com/cread.php?awinmid="+mid+"&awinaffid=3067297&ued="+encodeURIComponent(page); }
+var PARTNERS = [
+  {url:dl("124816","https://traverseon.com/products/6100-btu-max-portable-tent-air-conditioner-110v-camping-ac-for-tents-rvs-traverseon"), img:"https://traverseon.com/cdn/shop/files/5_a950f360-0c73-4e04-9c72-b8ebd21fc59c.jpg?v=1789647816&width=520", brand:"Traverseon", title:"6100 BTU Portable Tent Air Conditioner"},
+  {url:dl("124816","https://traverseon.com/products/bluetooth-cooler-box-21l-portable-outdoor-ice-chest-traverseon"), img:"https://traverseon.com/cdn/shop/files/8676798.jpg?v=1786357303&width=520", brand:"Traverseon", title:"Bluetooth Cooler Box, 22 qt Ice Chest"},
+  {url:dl("124816","https://traverseon.com/products/backpack-car-refrigerator-19qt-portable-compressor-cooler-traverseon"), img:"https://traverseon.com/cdn/shop/files/4567890_0083d193-61e1-4e83-bc80-d85a89b80968.png?v=1789373632&width=520", brand:"Traverseon", title:"19 qt Backpack Portable Fridge Freezer"},
+  {url:dl("124816","https://traverseon.com/products/traverseon-easyvault-ultralight-tent"), img:"https://traverseon.com/cdn/shop/files/cd00114f4575d4fd02eb5d25bcfd2b32.jpg?v=1789352170&width=520", brand:"Traverseon", title:"1-2 Person Ultralight Backpacking Tent"},
+  {s:"4818737", v:"124816", q:"608343", r:"3067297", img:"https://www.awin1.com/cshow.php?s=4818737&v=124816&q=608343&r=3067297", realImg:"https://images.thdstatic.com/productImages/101ad11adbf74cc181c01bf72b2497d0/svn/sleeping-bags-hikesleep3-64_1000.jpg", brand:"Traverseon", title:"1P All-Season Sleeping Bag"},
+  {url:"https://www.awin1.com/cread.php?awinmid=124816&awinaffid=3067297&ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fdog-retractable-leash", img:"https://m.media-amazon.com/images/I/715GP00TjNL._AC_UF1000,1000_QL80_.jpg", brand:"Traverseon", title:"Retractable dog leash"},
+  {s:"4856396", v:"117613", q:"596539", r:"3067297", img:"https://outfitrer.com/cdn/shop/files/4149-outfitr.jpg?v=1755237086&width=520", brand:"OUTFITR US", title:"OUTFITR offer 1"},
+  {s:"4863999", v:"117613", q:"612560", r:"3067297", img:"https://outfitrer.com/cdn/shop/files/8_35c069e1-ef0c-4dc5-85e9-f49c1a1394b7.jpg?v=1723541696&width=520", brand:"OUTFITR US", title:"OUTFITR offer 2"},
+  {s:"4871656", v:"117613", q:"613346", r:"3067297", img:"https://outfitrer.com/cdn/shop/files/5_7804ce1d-cdf1-40e2-a3ba-d2fb5052bd90.jpg?v=1723541700&width=520", brand:"OUTFITR US", title:"OUTFITR offer 3"},
+  {s:"4889996", v:"117613", q:"614829", r:"3067297", img:"https://outfitrer.com/cdn/shop/files/3_761b60ce-9d81-459a-9ea1-ecfbf65ed052.jpg?v=1723541705&width=520", brand:"OUTFITR US", title:"OUTFITR offer 4"},
+  {s:"4849351", v:"117613", q:"611085", r:"3067297", img:"https://outfitrer.com/cdn/shop/files/6_f131ae69-d076-449f-9fb6-a74d63df728b.jpg?v=1723541710&width=520", brand:"OUTFITR US", title:"OUTFITR offer 5"},
+  {url:"https://www.awin1.com/cread.php?awinmid=117613&awinaffid=3067297", img:"https://outfitrer.com/cdn/shop/files/7-1.jpg?v=1723541720&width=520", brand:"OUTFITR US", title:"Shop Outdoor Haulers"},
+  {s:"4855260", v:"125464", q:"600841", r:"3067297", img:"https://owp.klarna.com/product/640x640/3239505613/Toputure-Walking-Pad-Treadmill-9-Incline.jpg?ph=true", brand:"Toputure", title:"Toputure offer 1"},
+  {s:"4733230", v:"125464", q:"600845", r:"3067297", img:"https://m.media-amazon.com/images/I/81FWYWObJML._AC_UF1000,1000_QL80_.jpg", brand:"Toputure", title:"Toputure offer 2"},
+  {s:"4733205", v:"125464", q:"600841", r:"3067297", img:"https://toputure.com/cdn/shop/files/TP6_Treadmill_Main_image.webp?v=1768278821&width=520", brand:"Toputure", title:"Toputure offer 3"},
+  {url:dl("116187","https://kingscamo.com/products/xkg-transition-jacket-5"), img:"https://kingscamo.com/cdn/shop/files/XKG4322-XK7-1.png?v=1752870236&width=520", brand:"Kings Camo", title:"XKG Transition Jacket"},
+  {url:dl("116187","https://www.kingscamo.com/pages/whitetail-kits"), img:"https://kingscamo.com/cdn/shop/files/whitetail_kits.jpg?v=1687971485&width=520", brand:"Kings Camo", title:"Whitetail Hunting Kits"},
+  {url:dl("116187","https://www.kingscamo.com/pages/elk-kits"), img:"https://kingscamo.com/cdn/shop/files/elk_kits.jpg?v=1687971646&width=520", brand:"Kings Camo", title:"Elk Hunting Kits"}
+];
+var HERO = {s:"4818970", v:"124816", q:"608379", r:"3067297", img:"https://www.awin1.com/cshow.php?s=4818970&v=124816&q=608379&r=3067297", title:"Traverseon offer 1", realImg:"https://traverseon.com/cdn/shop/files/5_a950f360-0c73-4e04-9c72-b8ebd21fc59c.jpg?v=1789647816&width=520"};
 var GOOGLE_SHEETS_ENDPOINT = "";
-
 (function(){
-  var CATS = ["Hiking","Camping","Climbing","Trail Running"];
+  var PER = 6;
   var $ = function(id){ return document.getElementById(id); };
   var esc = function(t){ return String(t==null?"":t).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];}); };
   var qs = function(p){ return "s="+p.s+"&v="+p.v+"&q="+p.q+"&r="+p.r; };
-  var click = function(p){ return "https://www.awin1.com/cread.php?"+qs(p); };
-  var image = function(p){ return "https://www.awin1.com/cshow.php?"+qs(p); };
-
+  var click = function(p){ return p.url || "https://www.awin1.com/cread.php?"+qs(p); };
+  var image = function(p){ return p.img || (p.s ? "https://www.awin1.com/cshow.php?"+qs(p) : ""); };
   function card(p){
-    var b = esc(p.brand||"");
-    return '<a class="card" href="'+click(p)+'" target="_blank" rel="sponsored noopener">'+
-      '<div class="ph"><img src="'+image(p)+'" alt="'+esc(p.title)+'" width="400" height="300" loading="lazy" decoding="async"><span class="fb" aria-hidden="true">'+esc((p.brand||"?").charAt(0))+'</span></div>'+
-      '<div class="body"><span class="brandline">'+b+'</span><h3>'+esc(p.title)+'</h3><span class="go">Shop now</span></div></a>';
+    var im = image(p);
+    var real = p.realImg ? ' data-real="'+esc(p.realImg)+'" onerror="if(this.dataset.real&&this.src!==this.dataset.real){this.src=this.dataset.real}"' : '';
+    return '<a class="card" href="'+esc(click(p))+'" target="_blank" rel="sponsored noopener">'+
+      '<div class="ph'+(im?'':' noimg')+'">'+(im?'<img class="fg" src="'+esc(im)+'" alt="'+esc(p.title)+'" width="520" height="520" loading="lazy" decoding="async"'+real+'>':'')+'<span class="fb" aria-hidden="true">'+esc((p.brand||"?").charAt(0))+'</span></div>'+
+      '<div class="body"><h3>'+esc(p.title)+'</h3><span class="shop">Shop</span></div></a>';
   }
-
-  var grid = $("grid"), chips = $("chips"), strip = $("strip"), active = "All";
-
-  function render(){
-    var list = active==="All" ? PARTNERS : PARTNERS.filter(function(p){return p.cat===active;});
-    grid.innerHTML = list.length ? list.map(card).join("") :
-      '<div class="empty">'+(PARTNERS.length ? "No drops in this category yet." : "Partner drops will appear here once the PARTNERS list is filled in.")+'</div>';
-  }
-
-  function drawChips(){
-    var html = ['All'].concat(CATS.filter(function(c){return PARTNERS.some(function(p){return p.cat===c;});}));
-    chips.innerHTML = html.map(function(c){
-      var n = c==="All" ? PARTNERS.length : PARTNERS.filter(function(p){return p.cat===c;}).length;
-      return '<button class="chip" type="button" data-c="'+esc(c)+'" aria-pressed="'+(c===active)+'">'+esc(c)+' <small>'+n+'</small></button>';
-    }).join("");
-  }
-
-  chips.addEventListener("click",function(e){
-    var b = e.target.closest(".chip"); if(!b) return;
-    active = b.getAttribute("data-c"); drawChips(); render();
-  });
-
-  /* image fallback: hide broken or 1px images and show the brand initial */
+  var shown = 0;
+  $("vendors").innerHTML = VENDORS.map(function(v){
+    var list = PARTNERS.filter(function(p){return p.brand===v.brand;}).slice(0,PER);
+    shown += list.length;
+    return '<div class="vsec" id="'+v.id+'"><div class="vhead"><div><h2>'+esc(v.brand)+'</h2><p>'+esc(v.blurb)+'</p></div>'+
+      '<a class="visit" href="'+esc(v.store)+'" target="_blank" rel="sponsored noopener">Visit store</a></div>'+
+      '<div class="grid">'+(list.length?list.map(card).join(""):'<div class="empty">Picks coming soon.</div>')+'</div></div>';
+  }).join("");
   function bad(e){
     var t = e.target;
     if(t.tagName!=="IMG") return;
+    if(t.closest(".heroimg")){ if(e.type==="error" || (t.naturalWidth && t.naturalWidth<20)) t.closest(".heroimg").hidden = true; return; }
     if(e.type==="error" || (t.naturalWidth && t.naturalWidth<20)) t.parentNode.classList.add("noimg");
+    else if(t.parentNode.classList.contains("ph")) t.parentNode.classList.add("ok");
   }
   document.addEventListener("error",bad,true);
   document.addEventListener("load",bad,true);
-
-  var n = PARTNERS.length;
-  $("count").textContent = n ? n+" partner drops. Live and verified" : "Partner drops";
-  if(n) $("explore").textContent = "Explore "+n+" drops";
-  strip.innerHTML = PARTNERS.slice(0,6).map(card).join("");
-  if(!n) strip.style.display="none";
-  drawChips(); render();
+  document.querySelectorAll(".ph img").forEach(function(i){ if(i.complete) bad({target:i,type:i.naturalWidth?"load":"error"}); });
+  if(HERO && image(HERO)){
+    var h = $("heroimg");
+    h.href = click(HERO); h.hidden = false;
+    // Use official Awin cshow for impression tracking, but fallback to realImg if cshow fails or is banner
+    h.innerHTML = '<img src="'+esc(image(HERO))+'" data-real="'+esc(HERO.realImg||'')+'" alt="'+esc(HERO.title||"Featured offer")+'" width="520" height="320" decoding="async" fetchpriority="high" onerror="if(this.dataset.real){this.src=this.dataset.real}">';
+  }
+  $("count").textContent = shown+" picks from "+VENDORS.length+" stores. Live and verified";
   $("yr").textContent = new Date().getFullYear();
-
-  /* structured data for the partner list */
-  if(n){
+  if(PARTNERS.length){
     var ld = document.createElement("script"); ld.type="application/ld+json";
-    ld.textContent = JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Outdoor Sports Fun partner drops","numberOfItems":n,
+    ld.textContent = JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Outdoor Sports Fun partner picks","numberOfItems":PARTNERS.length,
       "itemListElement":PARTNERS.map(function(p,i){return {"@type":"ListItem","position":i+1,"name":p.title,"url":click(p)};})});
     document.head.appendChild(ld);
   }
-
-  /* newsletter */
   var form=$("form"), msg=$("msg"), sub=$("sub");
   function say(t,ok){ msg.textContent=t; msg.style.color = ok ? "#e6f3e2" : "#ffd9d2"; }
   form.addEventListener("submit",function(e){
