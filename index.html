@@ -98,11 +98,13 @@ a{color:inherit}
 .store-link:hover{color:var(--moss)}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px 28px}
 .card{display:flex;flex-direction:column}
-.card .img{aspect-ratio:4/3;border-radius:16px;overflow:hidden;background:var(--pine) var(--topo) center/220px;margin-bottom:14px}
-.card .img img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.card .img{display:block;aspect-ratio:4/3;border-radius:16px;overflow:hidden;background:var(--pine) var(--topo) center/220px;margin-bottom:14px}
+.card .img img{width:100%;height:100%;object-fit:contain;background:#fff;transition:transform .5s}
 .card:hover .img img{transform:scale(1.04)}
 .card h3{font:600 18px/1.3 var(--body);margin:0 0 6px}
-.card .price{font-weight:600;color:var(--moss);margin:0 0 14px}
+.card h3{margin-bottom:14px}
+.card .img img.fail{display:none}
 .card .buy{margin-top:auto;align-self:flex-start;text-decoration:none;font-weight:600;font-size:15px;padding:10px 18px;border-radius:999px;border:1.5px solid var(--ink);transition:background .2s,color .2s}
 .card .buy:hover{background:var(--ink);color:var(--fog)}
 #traverseon .card .img{background-color:#1C3F33}
@@ -202,9 +204,9 @@ footer a:hover{color:var(--lichen)}
 <section class="signs" aria-label="Jump to a store">
   <div class="wrap">
     <a class="sign" href="#traverseon"><strong>Traverseon</strong><span>6 picks</span></a>
-    <a class="sign" href="#outfitr"><strong>OUTFITR US</strong><span>6 picks</span></a>
-    <a class="sign" href="#toputure"><strong>Toputure</strong><span>6 picks</span></a>
-    <a class="sign" href="#kingscamo"><strong>Kings Camo</strong><span>6 picks</span></a>
+    <a class="sign" href="#outfitr"><strong>OUTFITR US</strong><span>3 picks</span></a>
+    <a class="sign" href="#toputure"><strong>Toputure</strong><span>5 picks</span></a>
+    <a class="sign" href="#kingscamo"><strong>Kings Camo</strong><span>3 picks</span></a>
   </div>
   <div class="wrap promise">
     <span><b>Hand-picked</b> from four partner stores</span>
@@ -216,73 +218,63 @@ footer a:hover{color:var(--lichen)}
 <div id="shops">
 
 <!--
-  HOW TO FILL A PRODUCT CARD
-  1. Replace the image placeholder with:  <img src="PRODUCT-IMAGE-URL" alt="Product name" loading="lazy" width="600" height="450">
-  2. Replace "Product name" and the price.
-  3. Replace href="#" on the button with your Awin link, unchanged.
+  PRODUCT CARDS: links are Awin (publisher 3067297). To add one, copy an <article> and change the name, image and href.
 -->
 
 <!-- ============ TRAVERSEON ============ -->
 <section class="store wrap" id="traverseon" aria-labelledby="h-traverseon">
   <div class="store-head">
-    <div><h2 id="h-traverseon">Traverseon</h2><p>Six picks from the Traverseon range.</p></div>
-    <a class="store-link" href="#" rel="sponsored noopener" target="_blank">Visit Traverseon</a><!-- AWIN: store link -->
+    <div><h2 id="h-traverseon">Traverseon</h2><p>Camping gear for cooling, sleeping and trips off the grid.</p></div>
+    <a class="store-link" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297" rel="sponsored noopener" target="_blank">Visit Traverseon</a><!-- AWIN: store link -->
   </div>
   <div class="grid">
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2F6100-btu-max-portable-tent-air-conditioner-110v-camping-ac-for-tents-rvs-traverseon" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://traverseon.com/cdn/shop/files/5_a950f360-0c73-4e04-9c72-b8ebd21fc59c.jpg?v=1789647816&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>6100 BTU Portable Tent Air Conditioner</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2F6100-btu-max-portable-tent-air-conditioner-110v-camping-ac-for-tents-rvs-traverseon" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for 6100 BTU Portable Tent Air Conditioner</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fbluetooth-cooler-box-21l-portable-outdoor-ice-chest-traverseon" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://traverseon.com/cdn/shop/files/8676798.jpg?v=1786357303&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>Bluetooth Cooler Box, 22 qt Ice Chest</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fbluetooth-cooler-box-21l-portable-outdoor-ice-chest-traverseon" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for Bluetooth Cooler Box, 22 qt Ice Chest</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fbackpack-car-refrigerator-19qt-portable-compressor-cooler-traverseon" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://traverseon.com/cdn/shop/files/4567890_0083d193-61e1-4e83-bc80-d85a89b80968.png?v=1789373632&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>19 qt Backpack Portable Fridge Freezer</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fbackpack-car-refrigerator-19qt-portable-compressor-cooler-traverseon" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for 19 qt Backpack Portable Fridge Freezer</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Ftraverseon-easyvault-ultralight-tent" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://traverseon.com/cdn/shop/files/cd00114f4575d4fd02eb5d25bcfd2b32.jpg?v=1789352170&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>1-2 Person Ultralight Backpacking Tent</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Ftraverseon-easyvault-ultralight-tent" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for 1-2 Person Ultralight Backpacking Tent</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?s=4818737&amp;v=124816&amp;q=608343&amp;r=3067297" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://images.thdstatic.com/productImages/101ad11adbf74cc181c01bf72b2497d0/svn/sleeping-bags-hikesleep3-64_1000.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>1P All-Season Sleeping Bag</h3><a class="buy" href="https://www.awin1.com/cread.php?s=4818737&amp;v=124816&amp;q=608343&amp;r=3067297" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for 1P All-Season Sleeping Bag</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fdog-retractable-leash" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://m.media-amazon.com/images/I/715GP00TjNL._AC_UF1000,1000_QL80_.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>Retractable Dog Leash</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=124816&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftraverseon.com%2Fproducts%2Fdog-retractable-leash" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for Retractable Dog Leash</span></a></article>
   </div>
 </section>
 
 <!-- ============ OUTFITR US ============ -->
 <section class="store wrap" id="outfitr" aria-labelledby="h-outfitr">
   <div class="store-head">
-    <div><h2 id="h-outfitr">OUTFITR US</h2><p>Racks and carriers for hauling bikes, boats and cargo.</p></div>
-    <a class="store-link" href="#" rel="sponsored noopener" target="_blank">Visit OUTFITR US</a><!-- AWIN: store link -->
+    <div><h2 id="h-outfitr">OUTFITR US</h2><p>Hitch racks and ramps for hauling e-bikes and gear.</p></div>
+    <a class="store-link" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297" rel="sponsored noopener" target="_blank">Visit OUTFITR US</a><!-- AWIN: store link -->
   </div>
   <div class="grid">
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Foutfitrer.com%2Fproducts%2F1-bike-hitch-rack-with-ramp-lightweight-bike-carrier-100-lbs-capacity-fits-2-receiver" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://outfitrer.com/cdn/shop/files/4149-outfitr.jpg?v=1755237086&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>Single Hitch E-Bike Rack with Ramp</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Foutfitrer.com%2Fproducts%2F1-bike-hitch-rack-with-ramp-lightweight-bike-carrier-100-lbs-capacity-fits-2-receiver" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for Single Hitch E-Bike Rack with Ramp</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Foutfitrer.com%2Fproducts%2F2-bike-hitch-e-bike-rack-easy-fold-and-tilt-silver-color-with-ramp" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://cdn.shopify.com/s/files/1/0874/8630/0441/files/4147_ramp.jpg?v=1788414481" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>2-Bike Hitch E-Bike Rack, Easy Fold and Tilt, with Ramp</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Foutfitrer.com%2Fproducts%2F2-bike-hitch-e-bike-rack-easy-fold-and-tilt-silver-color-with-ramp" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for 2-Bike Hitch E-Bike Rack, Easy Fold and Tilt, with Ramp</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Foutfitrer.com%2Fproducts%2F300-lb-ultimate-2-bike-e-bike-hitch-rack-with-ramp-150-lbs-per-bike-heavy-duty-dual-safety-lock-fits-5-fat-tire-e-bikes-foldable-carrier-for-2-receiver" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://cdn.shopify.com/s/files/1/0874/8630/0441/files/0_22b9583c-1f37-4f03-b8aa-fac6b372197e.jpg?v=1782194873" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>300 lb Ultimate 2-Bike E-Bike Hitch Rack with Ramp</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=117613&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Foutfitrer.com%2Fproducts%2F300-lb-ultimate-2-bike-e-bike-hitch-rack-with-ramp-150-lbs-per-bike-heavy-duty-dual-safety-lock-fits-5-fat-tire-e-bikes-foldable-carrier-for-2-receiver" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for 300 lb Ultimate 2-Bike E-Bike Hitch Rack with Ramp</span></a></article>
   </div>
 </section>
 
 <!-- ============ TOPUTURE ============ -->
 <section class="store wrap" id="toputure" aria-labelledby="h-toputure">
   <div class="store-head">
-    <div><h2 id="h-toputure">Toputure</h2><p>Six picks from the Toputure range.</p></div>
-    <a class="store-link" href="#" rel="sponsored noopener" target="_blank">Visit Toputure</a><!-- AWIN: store link -->
+    <div><h2 id="h-toputure">Toputure</h2><p>Walking pads, treadmills and exercise bikes for home workouts.</p></div>
+    <a class="store-link" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297" rel="sponsored noopener" target="_blank">Visit Toputure</a><!-- AWIN: store link -->
   </div>
   <div class="grid">
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?s=4855260&amp;v=125464&amp;q=600841&amp;r=3067297" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://owp.klarna.com/product/640x640/3239505613/Toputure-Walking-Pad-Treadmill-9-Incline.jpg?ph=true" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>Walking Pad Treadmill with Incline</h3><a class="buy" href="https://www.awin1.com/cread.php?s=4855260&amp;v=125464&amp;q=600841&amp;r=3067297" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for Walking Pad Treadmill with Incline</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?s=4733205&amp;v=125464&amp;q=600841&amp;r=3067297" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://toputure.com/cdn/shop/files/TP6_Treadmill_Main_image.webp?v=1768278821&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>TP6 Treadmill</h3><a class="buy" href="https://www.awin1.com/cread.php?s=4733205&amp;v=125464&amp;q=600841&amp;r=3067297" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for TP6 Treadmill</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftoputure.com%2Fproducts%2Ftoputure-tp8-walking-pad" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://cdn.shopify.com/s/files/1/0926/6806/8124/files/tp8_walking_pad.webp?v=1770893469" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>TP8 Under-Desk Walking Pad</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftoputure.com%2Fproducts%2Ftoputure-tp8-walking-pad" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for TP8 Under-Desk Walking Pad</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftoputure.com%2Fproducts%2Fteb5-exercise-bike" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://cdn.shopify.com/s/files/1/0926/6806/8124/files/3f1d79148c625103251f681685b8139d.jpg?v=1783910552" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>TEB5 Magnetic Exercise Bike</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftoputure.com%2Fproducts%2Fteb5-exercise-bike" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for TEB5 Magnetic Exercise Bike</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftoputure.com%2Fproducts%2Ftoputure-teb4-exercise-bike" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://cdn.shopify.com/s/files/1/0926/6806/8124/files/teb4_exercise_bike.webp?v=1770892692" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>TEB4 Foldable Recumbent Exercise Bike</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=125464&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Ftoputure.com%2Fproducts%2Ftoputure-teb4-exercise-bike" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for TEB4 Foldable Recumbent Exercise Bike</span></a></article>
   </div>
 </section>
 
 <!-- ============ KINGS CAMO ============ -->
 <section class="store wrap" id="kingscamo" aria-labelledby="h-kingscamo">
   <div class="store-head">
-    <div><h2 id="h-kingscamo">Kings Camo</h2><p>Hunting apparel and camo for the season ahead.</p></div>
-    <a class="store-link" href="#" rel="sponsored noopener" target="_blank">Visit Kings Camo</a><!-- AWIN: store link -->
+    <div><h2 id="h-kingscamo">Kings Camo</h2><p>Hunting apparel and camo kits for the season ahead.</p></div>
+    <a class="store-link" href="https://www.awin1.com/awclick.php?gid=517055&amp;mid=116187&amp;awinaffid=3067297&amp;linkid=3912540&amp;clickref=" rel="sponsored noopener" target="_blank">Visit Kings Camo</a><!-- AWIN: store link -->
   </div>
   <div class="grid">
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
-    <article class="card"><div class="img"></div><h3>Product name</h3><p class="price">$0.00</p><a class="buy" href="#" rel="sponsored noopener" target="_blank">Check price</a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=116187&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Fkingscamo.com%2Fproducts%2Fxkg-transition-jacket-5" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://kingscamo.com/cdn/shop/files/XKG4322-XK7-1.png?v=1752870236&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>XKG Transition Jacket</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=116187&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Fkingscamo.com%2Fproducts%2Fxkg-transition-jacket-5" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for XKG Transition Jacket</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=116187&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Fwww.kingscamo.com%2Fpages%2Fwhitetail-kits" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://kingscamo.com/cdn/shop/files/whitetail_kits.jpg?v=1687971485&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>Whitetail Hunting Kits</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=116187&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Fwww.kingscamo.com%2Fpages%2Fwhitetail-kits" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for Whitetail Hunting Kits</span></a></article>
+    <article class="card"><a class="img" href="https://www.awin1.com/cread.php?awinmid=116187&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Fwww.kingscamo.com%2Fpages%2Felk-kits" rel="sponsored noopener" target="_blank" tabindex="-1" aria-hidden="true"><img src="https://kingscamo.com/cdn/shop/files/elk_kits.jpg?v=1687971646&amp;width=520" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="520" height="390" onerror="this.classList.add('fail')"></a><h3>Elk Hunting Kits</h3><a class="buy" href="https://www.awin1.com/cread.php?awinmid=116187&amp;awinaffid=3067297&amp;ued=https%3A%2F%2Fwww.kingscamo.com%2Fpages%2Felk-kits" rel="sponsored noopener" target="_blank">Check price<span class="sr"> for Elk Hunting Kits</span></a></article>
   </div>
 </section>
 
