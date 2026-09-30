@@ -303,12 +303,12 @@ footer a:hover{color:var(--lichen)}
       <h2 id="h-letter">First on the trail.</h2>
       <p>New gear drops and seasonal deals from our featured brands, a couple of times a month. No spam.</p>
     </div>
-    <form class="form" action="https://formsubmit.co/agents@getservices.ai" method="POST">
-      <input type="hidden" name="_subject" value="OutdoorSports.fun — New Newsletter Signup">
-      <input type="hidden" name="_next" value="https://outdoorsports.fun/">
-      <input type="hidden" name="_captcha" value="true">
-      <input type="hidden" name="_template" value="table">
-      <input type="text" name="_honey" style="display:none">
+    <form class="form" action="https://api.web3forms.com/submit" method="POST" data-w3f><input type="hidden" name="access_key" value="5376676d-3736-4ef5-b2ea-2fcd5076f373"><input type="hidden" name="from_name" value="OutdoorSports.fun — New Newsletter Signup">
+      <input type="hidden" name="subject" value="OutdoorSports.fun — New Newsletter Signup">
+      
+      
+      
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <label for="email">Email address</label>
       <div class="row">
         <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
@@ -359,5 +359,5 @@ footer a:hover{color:var(--lichen)}
 </footer>
 
 <a class="top" href="#top">Back to top</a>
-</body>
+<script id="w3f-handler">(function(){function msg(f){var m=f.querySelector(".w3f-msg");if(!m){m=document.createElement("p");m.className="w3f-msg";m.setAttribute("role","status");m.style.cssText="flex-basis:100%;width:100%;margin:8px 0 0;font-size:14px;line-height:1.4";f.appendChild(m);}return m}document.addEventListener("submit",function(e){var f=e.target;if(!f||!f.matches||!f.matches("form[data-w3f]"))return;e.preventDefault();e.stopImmediatePropagation();var m=msg(f),b=f.querySelector("button[type=submit],button:not([type]),input[type=submit]"),contact=!!f.querySelector("textarea");if(b)b.disabled=true;m.textContent="Sending…";fetch(f.action,{method:"POST",headers:{Accept:"application/json"},body:new FormData(f)}).then(function(r){return r.json().catch(function(){return{success:r.ok}})}).then(function(d){if(!d||!d.success)throw 0;m.textContent=contact?"Thanks! Your message has been sent. We will reply soon.":"Thanks! You are subscribed.";f.reset();}).catch(function(){m.textContent="Sorry, that did not go through. Please try again or email agents@getservices.ai."}).then(function(){if(b)b.disabled=false})},true);document.addEventListener("click",function(e){var t=e.target,f=t&&t.closest?t.closest("form[data-w3f]"):null;if(f&&t.closest("button:not([type=button]),input[type=submit]"))e.stopPropagation();},true);})();</script></body>
 </html>
