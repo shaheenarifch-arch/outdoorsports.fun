@@ -194,6 +194,15 @@ footer a:hover{color:var(--lichen)}
 .fs-back{display:inline-flex;align-items:center;gap:6px;color:inherit;text-decoration:none;font-weight:600;opacity:.85}
 .fs-back:hover{opacity:1;text-decoration:underline;text-underline-offset:3px}
 .fs-sr{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;padding:0!important;margin:-1px!important;border:0!important}
+</style><style id="hero-merge">
+.hero{isolation:isolate;min-height:clamp(560px,80vh,780px)}
+.hero .hero-grid{grid-template-columns:minmax(0,640px) 1fr;position:static}
+.hero .hero-img{position:absolute;inset:0;z-index:0;aspect-ratio:auto;border-radius:0;border:0;box-shadow:none;max-width:none;margin:0}
+.hero .hero-img img{object-position:right center}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--spruce) 0%,var(--spruce) 22%,rgba(14,38,32,.82) 40%,rgba(14,38,32,.35) 62%,rgba(14,38,32,0) 82%)}
+.hero .hero-copy{z-index:3}
+.hero .ridges{z-index:2}
+@media(max-width:860px){.hero{min-height:0}.hero .hero-grid{grid-template-columns:1fr}.hero .hero-img img{object-position:60% center}.hero::before{background:linear-gradient(180deg,rgba(14,38,32,.55) 0%,rgba(14,38,32,.8) 45%,var(--spruce) 100%)}}
 </style></head>
 <body id="top">
 
@@ -223,7 +232,7 @@ footer a:hover{color:var(--lichen)}
       <a class="btn btn-primary" href="#shops">Browse the gear</a>
       <a class="btn btn-ghost" href="#newsletter">Get new drops by email</a>
     </div>
-  </div><div class="hero-img"><img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Camping tent in a mountain valley at sunset" width="800" height="600" fetchpriority="high" decoding="async"></div></div>
+  </div><div class="hero-img"><img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1920&q=80" alt="Camping tent in a mountain valley at sunset" width="800" height="600" fetchpriority="high" decoding="async"></div></div>
   <svg class="ridges" viewBox="0 0 1440 360" preserveAspectRatio="none" aria-hidden="true">
     <path class="r r1" fill="#2F5D45" d="M0 210 L140 120 L250 190 L400 70 L560 180 L700 110 L860 200 L1010 90 L1170 190 L1300 130 L1440 170 V360 H0Z"/>
     <path class="r r2" fill="#244B39" d="M0 250 L180 170 L330 240 L470 150 L640 250 L820 160 L980 240 L1140 170 L1300 240 L1440 200 V360 H0Z"/>
