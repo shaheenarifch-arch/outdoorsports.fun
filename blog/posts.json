@@ -12,5 +12,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.79
+  },
+  {
+    "keyword": "best camping tent for car camping with family",
+    "title": "Best Camping Tent for Car Camping with Family Trips",
+    "description": "Compare the best camping tent for car camping with family trips, including sizing tips, setup styles, and picks for different group sizes and seasons.",
+    "file": "best-camping-tent-for-car-camping-with-family.html",
+    "date": "2026-10-17",
+    "archetype": "best_products",
+    "archetype_confidence": 0.97,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.79
   }
 ]
