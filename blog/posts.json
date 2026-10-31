@@ -40,5 +40,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 10.0
+  },
+  {
+    "keyword": "Camping gear complete guide: what you need for your first trips",
+    "title": "Camping Gear Complete Guide: What You Need for Trips",
+    "description": "Camping gear complete guide: what you need for your first trips, from shelter and sleep systems to clothing, cooking, and a step-by-step decision framework.",
+    "file": "camping-gear-complete-guide-what-you-need-for-your-first-trips.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.62,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.55
   }
 ]
