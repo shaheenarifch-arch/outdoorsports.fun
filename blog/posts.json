@@ -54,5 +54,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.55
+  },
+  {
+    "keyword": "ice maker machine comparison for home use",
+    "title": "Ice Maker Machine Comparison for Home Use Guide",
+    "description": "Compare snow cone crushers and countertop ice makers in this ice maker machine comparison for home use to find the best fit for parties or daily drinks.",
+    "file": "ice-maker-machine-comparison-for-home-use.html",
+    "date": "2026-11-04",
+    "archetype": "comparison",
+    "archetype_confidence": 0.88,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.71
   }
 ]
