@@ -96,5 +96,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.41
+  },
+  {
+    "keyword": "best camping lantern",
+    "title": "Best Camping Lantern: Top Picks for Every Camping Trip",
+    "description": "Compare the best camping lantern options for backpacking, car camping, and emergencies, with buying tips, mistakes to avoid, and where to shop.",
+    "file": "best-camping-lantern.html",
+    "date": "2026-11-12",
+    "archetype": "best_products",
+    "archetype_confidence": 0.69,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.41
   }
 ]
