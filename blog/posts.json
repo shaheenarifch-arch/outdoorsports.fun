@@ -110,5 +110,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.41
+  },
+  {
+    "keyword": "best ultralight backpacking tent",
+    "title": "Best Ultralight Backpacking Tent: Problems and Fixes",
+    "description": "Struggling to find the best ultralight backpacking tent? See common causes of weight, space and weather issues, plus checks, fixes and prevention tips.",
+    "file": "best-ultralight-backpacking-tent.html",
+    "date": "2026-11-13",
+    "archetype": "problem_solution",
+    "archetype_confidence": 0.57,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.7
   }
 ]
