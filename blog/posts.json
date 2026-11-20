@@ -124,5 +124,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.7
+  },
+  {
+    "keyword": "winter camping gear checklist",
+    "title": "Winter Camping Gear Checklist: How to Stay Warm in Cold Weather",
+    "description": "Winter camping gear checklist: sleeping bag ratings, pad R-value, layering, 4-season shelter, cold-weather stoves, water and safety tips to stay warm.",
+    "file": "winter-camping-gear-checklist.html",
+    "date": "2026-11-19",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.62,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.55
   }
 ]
